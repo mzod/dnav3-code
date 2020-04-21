@@ -7,8 +7,7 @@ import random
 
 # TODO: Write a print statement that displays both the type and value of `pi`
 pi = math.pi
-print(type(pi))
-print(pi)
+print("pi is a {} with a value {}".format(type(pi), pi))
 
 # TODO: Write a conditional to print out if `i` is less than or greater than 50
 i = random.randint(0, 100)
@@ -33,6 +32,7 @@ else:
 # TODO: Write a function that multiplies two numbers and returns the result
 # Define the function here.
 def multiply(num1, num2):
+    """Multiply two  numbers and return the result."""
     result = num1 * num2
     return result
 
